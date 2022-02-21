@@ -1,0 +1,135 @@
+{
+  "description": "Клиент осуществляет заказ из Меню. Администратор подтверждает Заказ и отправляет его на кухню для исполнения. Администратор выставляет Счет. Клиент производит его оплату",
+  "checks": [
+    {
+      "waiter": "Jose Gilbert",
+      "cost": 652,
+      "order": [
+        {
+          "soup": "Cheese",
+          "mainDish": "Duck",
+          "salad": "Caesar",
+          "dessert": "Napoleon",
+          "additional": {
+            "Pizza": {
+              "size": "35",
+              "name": "Pepperoni"
+            },
+            "Burger": {
+              "size": "Medium",
+              "cutlet": "Fish"
+            },
+            "Coffee": {
+              "size": "250",
+              "cutlet": "Latte"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "waiter": "Andre Myers",
+      "cost": 750,
+      "order": [
+        {
+          "soup": "Noodle",
+          "mainDish": "Pasta",
+          "salad": "Hungarian",
+          "dessert": "Strudel",
+          "additional": {
+            "Pizza": {
+              "size": "40",
+              "name": "Pepperoni"
+            },
+            "Burger": {
+              "size": "Large",
+              "cutlet": "Shrimp"
+            },
+            "Coffee": {
+              "size": "350",
+              "cutlet": "Mocachino"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "waiter": "Sofia Butler",
+      "cost": 942,
+      "order": [
+        {
+          "soup": "Cheese",
+          "mainDish": "Pasta",
+          "salad": "Hungarian",
+          "dessert": "Napoleon",
+          "additional": {
+            "Pizza": {
+              "size": "30",
+              "name": "Margarita"
+            },
+            "Burger": {
+              "size": "Large",
+              "cutlet": "Beef"
+            },
+            "Coffee": {
+              "size": "350",
+              "cutlet": "Americano"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "waiter": "Austin Boswell",
+      "cost": 715,
+      "order": [
+        {
+          "soup": "Pumpkin",
+          "mainDish": "Machanka",
+          "salad": "Hungarian",
+          "dessert": "Casserole",
+          "additional": {
+            "Pizza": {
+              "size": "30",
+              "name": "Carbonara"
+            },
+            "Burger": {
+              "size": "Large",
+              "cutlet": "Shrimp"
+            },
+            "Coffee": {
+              "size": "350",
+              "cutlet": "Espresso"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "waiter": "Victoria Laidler",
+      "cost": 812,
+      "order": [
+        {
+          "soup": "Cheese",
+          "mainDish": "Pasta",
+          "salad": "Caesar",
+          "dessert": "Casserole",
+          "additional": {
+            "Pizza": {
+              "size": "35",
+              "name": "Forest"
+            },
+            "Burger": {
+              "size": "Mini",
+              "cutlet": "Beef"
+            },
+            "Coffee": {
+              "size": "350",
+              "cutlet": "Latte"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

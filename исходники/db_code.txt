@@ -1,0 +1,36 @@
+CREATE DATABASE restaurant;
+CREATE TABLE orders 
+	(
+		order_ID SERIAL PRIMARY KEY,
+		waiter VARCHAR (20),
+		price INT
+	);
+	CREATE TABLE mainDishes
+	(
+		order_ID SERIAL REFERENCES Orders(order_ID) ON DELETE CASCADE,
+		soup VARCHAR (20),
+		mainDish VARCHAR (20),
+		salad VARCHAR (20),
+		dessert VARCHAR (20)
+	);
+	
+	CREATE TABLE pizza
+	(
+		order_ID SERIAL REFERENCES Orders(order_ID) ON DELETE CASCADE,
+		pizza_size VARCHAR (20),
+		pizza_name VARCHAR (20)
+	);
+	
+	CREATE TABLE burger
+	(
+		order_ID SERIAL REFERENCES Orders(order_ID) ON DELETE CASCADE,
+		burger_size VARCHAR (20),
+		burger_cutlet VARCHAR (20)
+	);
+	
+	CREATE TABLE coffee
+	(
+		order_ID SERIAL REFERENCES Orders(order_ID) ON DELETE CASCADE,
+		coffee_size VARCHAR (20),
+		coffee_cutlet VARCHAR (20)
+	);
